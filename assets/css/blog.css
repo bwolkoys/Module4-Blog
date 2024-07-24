@@ -1,0 +1,15 @@
+#postsContainer {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .post h2 {
+    margin-top: 0;
+  }
