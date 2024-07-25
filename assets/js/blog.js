@@ -8,6 +8,7 @@ const toggle = document.getElementById('toggle');
                 body.classList.remove('dark-mode');
             }
         });
+        
 const backBtn = document.getElementById('backBtn');
 
 backBtn.addEventListener('click', function() {
