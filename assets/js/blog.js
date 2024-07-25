@@ -10,6 +10,6 @@ const toggle = document.getElementById('toggle');
         });
 const backBtn = document.getElementById('backBtn');
 
-backBtn.addEventListener('click', () => {
+backBtn.addEventListener('click', function() {
     window.location.href = 'module4-blog/index.html';
 });
