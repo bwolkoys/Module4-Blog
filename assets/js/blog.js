@@ -1,16 +1,13 @@
+let darkMode = false
 const toggle = document.getElementById('toggle');
         const body = document.body;
 
-        toggle.addEventListener('change', function() {
-            if (toggle.checked) {
+        toggle.addEventListener('click', function() {
+            if (!darkMode) {
                 body.classList.add('dark-mode');
+                darkMode = true
             } else {
                 body.classList.remove('dark-mode');
+                darkMode = false
             }
         });
-        
-const backBtn = document.getElementById('backBtn');
-
-backBtn.addEventListener('click', function() {
-    window.location.href = 'index.html';
-});
