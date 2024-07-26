@@ -8,6 +8,11 @@ body {
   color: var(--text-color);
 }
 
+#backBtn a {
+  text-decoration: none;
+  color: black;
+}
+
 .dark-mode {
   --background-color: black;
   --text-color: white;
@@ -34,4 +39,19 @@ body {
     padding: 10px;
     margin: 20px;
   }
+#blogPosts h3 {
+  border-bottom: 1px solid black;
+}
 
+#blogPosts .content {
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+footer .bold {
+  font-weight: bold;
+}
+
+footer a {
+  color: white;
+}

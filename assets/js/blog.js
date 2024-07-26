@@ -24,6 +24,7 @@ let blogPosts=document.getElementById("blogPosts")
     let p2 = document.createElement("p")
     h3.textContent=title
     p1.textContent=content
+    p1.setAttribute("class", "content")
     p2.textContent="Posted by: "+ username
     div.appendChild(h3)
     div.appendChild(p1)
