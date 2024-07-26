@@ -38,6 +38,7 @@ SO THAT I can showcase my thoughts and experiences
 - Helped create my for loop for the username, content, and title https://www.w3schools.com/js/js_loop_for.asp 
 - appendChild help on blog.js https://www.w3schools.com/jsref/met_node_appendchild.asp 
 - help on form,js for local storage https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage 
+- Had a tutoring session Thursday (25th) to help me get the toggle button and back button to work and help with some styling connections on css
 
 ## Link to Deployed content 
 
